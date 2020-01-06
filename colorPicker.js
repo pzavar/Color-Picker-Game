@@ -68,40 +68,6 @@ function reset() {
     }
 }
 
-// easyBtn.addEventListener("click", function() {
-//     numSquares = 3;
-//     easyBtn.classList.add("selected");
-//     hardBtn.classList.remove("selected");
-//     colors = generateRandomColors(numSquares);
-//     pickedColor = pickColor();
-//     colorDisplay.textContent = pickedColor;
-//     //change colors of squares
-//     for (var i=0; i<squares.length;i++) {
-//         squares[i].style.backgroundColor = colors[i];
-//     }
-//     //hide bottom 3 squares
-//     for (var i=3; i<squares.length; i++) {
-//         squares[i].style.display = "none";
-//     }
-// });
-
-// hardBtn.addEventListener("click", function() {
-//     hardBtn.classList.add("selected");
-//     easyBtn.classList.remove("selected");
-//     //show bottom 3 squares
-//     colors = generateRandomColors(numSquares);
-//     pickedColor = pickColor();
-//     colorDisplay.textContent = pickedColor;
-//     //change colors of squares
-//     for (var i=0; i<squares.length;i++) {
-//         squares[i].style.backgroundColor = colors[i];
-//     }
-//     //hide bottom 3 squares
-//     for (var i=3; i<squares.length; i++) {
-//         squares[i].style.display = "block";
-//     }
-// })
-
 resetButton.addEventListener("click", function() {
     reset();
 });
