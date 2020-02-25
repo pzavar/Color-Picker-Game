@@ -1,5 +1,5 @@
 # Color-Picker-Game
-An interactive game that tests your RGB skills...
+An interactive web game that tests your RGB skills...
 
 
 # Demo
